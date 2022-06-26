@@ -14,3 +14,35 @@ body{
     height: 500px;
     width: 500px;
 }
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+#hotel{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#details{
+    margin: 2%;
+}
+#tarrif{
+    margin: 1% 2% 1% 2%;
+}
+#tarrif1{
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+}

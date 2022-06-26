@@ -14,3 +14,21 @@ body{
     height: 200px;
     width: 250px;
 }
+html{
+    margin: 0;
+    background-color: #e0e0e0;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+#rad{
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+}

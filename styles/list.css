@@ -6,7 +6,7 @@ body{
     height: 100%;
     width: 100%;
 }
-::content{
+.content{
     height: 100%;
     width: 100%;
 }
@@ -17,18 +17,101 @@ body{
 html{
     margin: 0;
     background-color: #e0e0e0;
+    font-family: Ubuntu;
 }
 body{
     margin: 0;
 }
 header{
     background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 footer{
     background-color: rosybrown;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 #rad{
     margin: 2%;
     background-color: rgb(132, 136, 139);
     width: 40%;
+}
+.login{
+    color: black;
+    text-decoration: none;
+    float: right;
+    margin: 1.5%;
+}
+#list_v{
+    padding: 2px 10px;
+    color: black;
+    text-decoration: none;
+}
+#map_v{
+    color: black;
+    text-decoration: none;
+}
+.contact{
+    color: black;
+    text-decoration: none;
+    float: left;
+    margin: 1.5%;
+}
+.social_handles{
+    float: right;
+    padding: 2px;
+}
+.hotel_description{
+    float: right;
+    margin-top: 0%;
+    margin-right: 27%;
+}
+.hotel_description1{
+    float: right;
+    margin-right: 42%;
+}
+#login{
+    float: right;
+    margin: 1.5%;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+.hotel_cards{
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 43%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.hotel_cards1{
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 43%;
+    height: 100%;
+    margin-left: 60px;
+    margin-bottom: 5%;
+ }
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.view{
+    height: 5px;
+    margin: 80px;
+    text-align: center;
+    
+}
+.clear{
+    height: 60px;
 }

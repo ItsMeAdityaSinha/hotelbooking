@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles/list.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <title>Hotel Booking Website</title>
     </head>
     <body>
@@ -12,53 +13,63 @@
             <header>
                 <a href="index.html">
                     <img id="logo" src="assests/images/logo.png" alt="logo"></a>
-                <a href="login.html" target="_blank">Login</a>
+                <a href="login.html" target="_blank" class="login">Login</a>
             </header>
+            <div class="clear"></div>
             <div class="content">
                 <div>
                     <ul>
-                        <li><a href="#listview">List View</a></li>
-                        <li><a href="#mapview">Map View</a></li>
+                        <li><a href="#listview" id="list_v">List View</a></li>
+                        <li><a href="#mapview" id="map_v">Map View</a></li>
                     </ul>
                 </div>
-                <div id="listview">
-                    <a href="detail.html">
-                        <div id="rad">
-                            <img id="img1" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                            <h3>Radisson Blu Hotel</h3>
-                            <p>5 Star</p>
-                            <p>New Delhi</p>
+                <div class="parent" style="display: flex;">
+                    <a href="detail.html" class="hotel_cards" style="color: black; text-decoration: none;">
+                        <div class="left">
+                            <div>
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="200px" width="250px">
+                        </div>
+                            <div class="hotel_description">
+                                <h3>Radisson Blu Hotel</h3>
+                                <p>5 Star</p>
+                                <p>New Delhi</p>
+                            </div>
                         </div>
                     </a>
-                    <div id="rad">
-                        <img id="img1" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
-                        <h3>The Lalit New Delhi</h3>
-                        <p>4.5 Star</p>
-                        <p>New Delhi</p>
+                    <!-- <br> -->
+                    <div class="hotel_cards right">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" height="200px" width="250px">
+                        <div class="hotel_description">
+                            <h3>The Lalit New Delhi</h3>
+                            <p>4.5 Star</p>
+                            <p>New Delhi</p>
+                        </div>
                     </div>
-                    <div id="rad">
-                        <img id="img1" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
+                </div>
+                <div class="hotel_cards1">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" height="200px" width="250px">
+                    <div class="hotel_description1">
                         <h3>Taj Palace</h3>
                         <p>4.0 Star</p>
                         <p>New Delhi</p>
                     </div>
                 </div>
-                <div id="mapview">
-                    <div>
-                        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
-                        <p>MAP VIEW</p>
-                    </div>
+                <!-- </div> -->
+                <div class="map">
+                    <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" id="map_view">
+                    MAP VIEW
                 </div>
             </div>
+            <div class="clear"></div>
             <footer>
-                <a href="contact.html" target="_blank">Contact us</a>
+                <a href="contact.html" target="_blank" class="contact">Contact us</a>
                 <div>
                     <a href="https://www.facebook.com/" target="_blank">
-                        <img style="height: 20px; width:22px;" src="assests/images/facebook.png"></a>
+                        <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/facebook.png"></a>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <img style="height: 20px; width:22px;" src="assests/images/instagram.png"></a>
+                        <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/instagram.png"></a>
                     <a href="https://twitter.com/" target="_blank">
-                        <img style="height: 20px; width:22px;" src="assests/images/twitter.png"></a>
+                        <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/twitter.png"></a>
                 </footer>
                 <span>&copy;2020 ROOM SEARCH PVT LTD.</span>
             </div>

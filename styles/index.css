@@ -1,104 +1,104 @@
 header {
-    background-color: rosybrown;
-    position: fixed;
-    width: 100%;
-    top:0;
+  background-color: rosybrown;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 footer {
-    background-color: rosybrown;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  background-color: rosybrown;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
-#logo{
-    height: 60px;
-    width: 60px;
+#logo {
+  height: 60px;
+  width: 60px;
 }
-html{
-    margin: 0;
-    font-family: Ubuntu,sans-serif;
+html {
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
 }
-body{
-    margin: 0;
-    background-color: #e0e0e0;
+body {
+  margin: 0;
+  background-color: #e0e0e0;
 }
-#img2{
-    height: 380px;
-    width: 100%;
-    margin: auto;
-    display:flex;
-    background-repeat: no-repeat;
+#img2 {
+  height: 380px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  background-repeat: no-repeat;
 }
-#form{
-    position: relative;
+#form {
+  position: relative;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 .column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-.row{
-    margin: 0 1px;
-}  
-.row ::after{
-    content: "";
-    display: table;
-    clear: both;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
 }
-.card{
-    padding: 16px;
-    text-align: center;
+.row {
+  margin: 0 1px;
 }
-.cityimg{
-    border-radius: 25%;
+.row ::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-#login{
-    /* align-items: right; */
-    float: right;
-    margin: 1.5%;
-    text-decoration: none;
+.card {
+  padding: 16px;
+  text-align: center;
 }
-#search_bar{
-    border-color: 1px transparent;
-    background-color: #f1f1f1;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 12px;
-    /* display: inline-block; */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    margin: 0 auto;   
+.cityimg {
+  border-radius: 25%;
 }
-.content_div{
-    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
-    height:380px; 
-    max-height: 100%;
-    max-width: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position:center bottom ;   
+#login {
+  /* align-items: right; */
+  float: right;
+  margin: 1.5%;
+  text-decoration: none;
 }
-.copyright{
-    text-align: center;
-    font-size: 10px;
+#search_bar {
+  border-color: 1px transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  /* display: inline-block; */
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  margin: 0 auto;
 }
-.social_handles{
-    float: right;
-    padding: 1px;
-    margin: 1%;
+.content_div {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+  height: 380px;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
-.clear{
-    height: 60px;
+.copyright {
+  text-align: center;
+  font-size: 10px;
 }
-#view{
-    text-align: center;
+.social_handles {
+  float: right;
+  padding: 1px;
+  margin: 1%;
 }
-.contact{
-    float: left;
-    margin: 1.5%;
+.clear {
+  height: 60px;
+}
+#view {
+  text-align: center;
+}
+.contact {
+  float: left;
+  margin: 1.5%;
 }

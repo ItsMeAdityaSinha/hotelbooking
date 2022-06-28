@@ -6,14 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <link href="styles/index.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <title>Hotel Booking Website</title>
     </head>
     <body>
         <div>
             <header>
                 <img id="logo" src="assests/images/logo.png" alt="logo">
-                <a id="login" href="login.html" target="_blank">Login</a>
+                <a id="login">
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">LOGIN</button>
+                </a>
             </header>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Please Login</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Username:</p>
+                                    <p>Password:</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form"><input type="text" placeholder="Enter Username"></div>
+                                    <div class="md-form"><input type="text" placeholder="Enter password"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="clear"></div>
             <div class="content">
                 <div class="content_div">
@@ -48,10 +79,30 @@
             </div>
         </div>
     </body>
-</div><a href="#" id="view" style="text-decoration: none; color:black; text-align: center;">View More>></a>
-<div class="clear"></div>
-<footer>
-<a href="contact.html" style="color: black;text-decoration:none;" class="contact">Contact us</a>
+</div><a href="#" id="view" style="text-decoration: none; color:black; text-align: center;">View More>></a><div class="clear"></div>
+  <footer>
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Contact us
+          </button>
 <div>
     <a href="https://www.facebook.com/" target="_blank">
         <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/facebook.png"></a>
@@ -60,4 +111,4 @@
     <a href="https://twitter.com/" target="_blank">
         <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/twitter.png"></a>
 </div>
-<p class="copyright">&copy;2020 ROOM SEARCH PVT LTD.</p></footer></body></html></body></html></div></body></html>
+<p class="copyright">&copy;2020 ROOM SEARCH PVT LTD.</p></footer></body></html>

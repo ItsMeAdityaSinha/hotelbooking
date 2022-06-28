@@ -84,7 +84,7 @@ footer{
 }
 .hotel_cards{
     margin: 2%;
-    background-color: rgb(132, 136, 139);
+    background-color: lightgray;
     width: 43%;
     height: 100%;
     margin-left: auto;
@@ -94,23 +94,29 @@ footer{
 }
 .hotel_cards1{
     margin: 2%;
-    background-color: rgb(132, 136, 139);
+    background-color: lightgray;
     width: 43%;
     height: 100%;
     margin-left: 60px;
     margin-bottom: 5%;
- }
-
-
-a{
-    color: black;
-    text-decoration: none;
 }
 .view{
     height: 5px;
     margin: 80px;
     text-align: center;
     
+}
+#list_v{
+
+padding: 2px 10px;
+}
+.map{
+    display: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 .clear{
     height: 60px;

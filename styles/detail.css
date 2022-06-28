@@ -1,65 +1,105 @@
-#logo{
-    height: 60px;
-    width: 60px;
+#logo {
+  height: 60px;
+  width: 60px;
 }
-body{
-    height: 100%;
-    width: 100%;
+body {
+  height: 100%;
+  width: 100%;
 }
-::content{
-    height: 100%;
-    width: 100%;
+::content {
+  height: 100%;
+  width: 100%;
 }
-#img1{
-    height: 500px;
-    width: 500px;
+#img1 {
+  height: 500px;
+  width: 500px;
 }
-html{
-    margin: 0;
-    font-family: Ubuntu;
+html {
+  margin: 0;
+  font-family: Ubuntu;
 }
-body{
-    margin: 0;
-    background-color: #e0e0e0;
+body {
+  margin: 0;
+  background-color: #e0e0e0;
 }
-header{
-    background-color: rosybrown;
-    width: 100%;
-    position: fixed;
-    top: 0;
+header {
+  background-color: rosybrown;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
-footer{
-    background-color: rosybrown;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
+footer {
+  background-color: rosybrown;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
-#pic{
-    margin: 2% 4% 0 4%; 
+#pic {
+  margin: 2% 4% 0 4%;
 }
-#form{
-    margin: 0 4% 1% 4%;;
+#form {
+  margin: 0 4% 1% 4%;
 }
-.login{
-    color: black;
-    text-decoration: none;
-    float: right;
-    margin: 1.5%;
+.login {
+  color: black;
+  text-decoration: none;
+  float: right;
+  margin: 1.5%;
 }
-.contact{
-    color: black;
-    text-decoration: none;
-    float: left;
-    margin: 1.5%;
+.contact {
+  color: black;
+  text-decoration: none;
+  float: left;
+  margin: 1.5%;
 }
-.social_handles{
-    float: right;
-    padding: 2px;
+.social_handles {
+  float: right;
+  padding: 2px;
 }
-.copyright{
-    text-align: center;
-    font-size: 10px;
+.copyright {
+  text-align: center;
+  font-size: 10px;
 }
-.clear{
-    height: 60px;
+.clear {
+  height: 60px;
+}
+.image_form {
+  display: flex;
+  border: 2px solid black;
+  margin: 2%;
+  height: 400px;
+}
+.image {
+  width: 70%;
+  margin-left: 15%;
+}
+.hotel_image {
+  margin: 2% 4% 0% 4%;
+}
+.form {
+  /* width: 25%; */
+  margin: 5% 4% 1% 4%;
+  /* display: flex; */
+}
+.form_div {
+  width: 30%;
+  padding: 1.5%;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 400px;
+}
+h4 {
+  font-family: cursive;
+}
+input {
+  width: 58%;
+  padding: 0% 2%;
+}
+.button {
+  margin: 0% 0% 0% 40%;
+  padding: 2%;
+}
+.details{
+    padding: 20px;
 }

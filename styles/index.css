@@ -90,10 +90,15 @@ body{
 .social_handles{
     float: right;
     padding: 1px;
+    margin: 1%;
 }
 .clear{
     height: 60px;
 }
 #view{
     text-align: center;
+}
+.contact{
+    float: left;
+    margin: 1.5%;
 }

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles/payment.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <title>Hotel Booking Website</title>
     </head>
     <body>
@@ -12,8 +13,9 @@
             <header>
                 <a href="index.html">
                     <img id="logo" src="assests/images/logo.png" alt="logo"></a>
-                <a href="login.html" target="_blank">Login</a>
+                <a id="loginclass="social_handles" " href="login.html" target="_blank">Login</a>
             </header>
+            <div class="clear"></div>
             <div class="content">
                 <div id="hotel">
                     <img id="img1" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
@@ -22,6 +24,7 @@
                     <p>National Highway 8, New Delhi 110017 India</p>
                 </div>
                 <div id="details">
+                    <div class="customer">
                     <p>
                         <span style="font-weight:700 ;">Name:</span>John Doe</p>
                     <p>
@@ -30,7 +33,7 @@
                         <span style="font-weight:700 ;">Check-in Date:</span>06/06/2020</p>
                     <p>
                         <span style="font-weight:700 ;">Check-out Date:</span>08/06/2020</p>
-                </div>
+                </div></div>
                 <div id="tarrif1">
                     <div id="tarrif">
                         <p>
@@ -39,20 +42,23 @@
                             <span style="font-weight:700 ;">Total Amount:</span>Rs. 10000</p>
                     </div>
                 </div>
-                <a href="payment.html">Pay Now</a>
+                <div class="pay">
+                    <a href="payment.html">Pay Now</a>
+                </div>
 
             </div>
+            <div class="clear"></div>
             <footer>
                 <a href="contact.html" target="_blank">Contact us</a>
                 <div>
                     <a href="https://www.facebook.com/" target="_blank">
-                        <img style="height: 20px; width:22px;" src="assests/images/facebook.png"></a>
+                        <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/facebook.png"></a>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <img style="height: 20px; width:22px;" src="assests/images/instagram.png"></a>
+                        <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/instagram.png"></a>
                     <a href="https://twitter.com/" target="_blank">
-                        <img style="height: 20px; width:22px;" src="assests/images/twitter.png"></a>
+                        <img style="height: 20px; width:22px;" class="social_handles" src="assests/images/twitter.png"></a>
                 </div>
-                <span>&copy;2020 ROOM SEARCH PVT LTD.</span>
+                <p class="copyright">&copy;2020 ROOM SEARCH PVT LTD.</p>
             </footer>
         </div>
     </body>
